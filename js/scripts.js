@@ -1,12 +1,18 @@
-let myName = 'Charl';
-document.write(myName);
-myName = 'Carlos';
-document.write('Hello! My name is ' + myName);
-
-/* let simpleAddition = (2 + 2 + 6 - 7) * 9;
-document.write(simpleAddition); 
-
-let size = 100;
-let doubleSize = size * 2;
-let minSize = (doubleSize * 2) - (size / 2);
-document.write(minSize); */
+//Create an array withat least 3 objects containing key=value pairs
+let pokemonList = [
+  {
+    name: 'Bulbasaur',
+    height: 0.7,
+    types: ['grass', 'poison']
+  },
+  {
+    name: 'Charmander',
+    height: 0.6,
+    types: ['fire']
+  },
+  {
+    name: 'Squirtle',
+    height: 0.5,
+    types: ['water']
+  },
+];
